@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <div data-tauri-drag-region   class="titlebar" id="titlebar" >
+      <button>
+        ⚪
+      </button>
+      -
+      <button>
+        🔴
+      </button>
+    </div>
+    <main class="container">
+      <input aria-autocomplete="none" type="text" id="filename" placeholder="Title">
+      <textarea id="content" placeholder="text"></textarea>
+    </main>
+  </body>
+</html>

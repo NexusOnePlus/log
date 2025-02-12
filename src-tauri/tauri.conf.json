@@ -17,9 +17,25 @@
       }
     ],
     "security": {
-      "csp": null
+      "csp": null,
+      "capabilities": [
+        {
+          "identifier": "custom-permision",
+          "windows": [
+            "*"
+          ],
+          "permissions": [
+            "core:window:allow-create",
+            "core:window:allow-close",
+            "core:webview:allow-create-webview",
+            "core:webview:allow-webview-close",
+            "core:webview:allow-create-webview-window"
+          ]
+        }
+      ]
     }
   },
+  
   "bundle": {
     "active": true,
     "targets": "all",

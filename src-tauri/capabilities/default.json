@@ -5,6 +5,9 @@
   "windows": ["main"],
   "permissions": [
     "core:window:default",
-    "core:window:allow-start-dragging"
+    "core:window:allow-create",
+    "core:webview:allow-webview-close",
+    "core:window:allow-start-dragging",
+    "core:window:allow-close"
   ]
 }

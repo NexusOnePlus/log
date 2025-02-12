@@ -25,6 +25,7 @@
             "*"
           ],
           "permissions": [
+            "core:window:allow-start-dragging",
             "core:window:allow-create",
             "core:window:allow-close",
             "core:webview:allow-create-webview",

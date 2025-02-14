@@ -7,13 +7,17 @@
     "frontendDist": "../src"
   },
   "app": {
+    "macOSPrivateApi": true,
     "withGlobalTauri": true,
     "windows": [
       {
         "title": "",
         "width": 410,
         "height": 410,
-        "decorations": false
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "fullscreen": false
       }
     ],
     "security": {
